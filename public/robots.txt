@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /*.json$
+Disallow: /*?*
+
+# Host
+Host: https://khetarvala.com
+
+# Sitemaps
+Sitemap: https://khetarvala.com/sitemap.xml

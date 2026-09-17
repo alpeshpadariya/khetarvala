@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8E7"/>
+      <stop offset="100%" style="stop-color:#F5EEDC"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <!-- Field -->
+  <path d="M0 350 Q 200 250 400 350 Q 600 250 800 350 L800 600 L0 600 Z" fill="#FFF0D0" opacity="0.5"/>
+  <path d="M0 400 Q 150 300 300 400 Q 450 300 600 400 Q 750 300 800 400 L800 600 L0 600 Z" fill="#FFF0D0" opacity="0.3"/>
+  <!-- Wheat rows -->
+  <g fill="#2E7D32" opacity="0.15">
+    <path d="M0 420 Q 100 350 200 420 Q 300 350 400 420 Q 500 350 600 420 Q 700 350 800 420 L800 600 L0 600 Z"/>
+    <path d="M0 480 Q 80 420 160 480 Q 240 420 320 480 Q 400 420 480 480 Q 560 420 640 480 Q 720 420 800 480 L800 600 L0 600 Z" opacity="0.1"/>
+    <path d="M0 540 Q 60 480 120 540 Q 180 480 240 540 Q 300 480 360 540 Q 420 480 480 540 Q 540 480 600 540 Q 660 480 720 540 Q 780 480 800 540 L800 600 L0 600 Z" opacity="0.08"/>
+  </g>
+  <!-- Foreground wheat stalks -->
+  <g stroke="#8D6E63" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.4">
+    <path d="M100 580 Q 120 480 100 380 Q 80 280 100 180"/>
+    <path d="M250 600 Q 270 500 250 400 Q 230 300 250 200"/>
+    <path d="M400 580 Q 420 480 400 380 Q 380 280 400 180"/>
+    <path d="M550 600 Q 570 500 550 400 Q 530 300 550 200"/>
+    <path d="M700 580 Q 720 480 700 380 Q 680 280 700 180"/>
+  </g>
+  <!-- Wheat grains -->
+  <g fill="#FFF8E7" stroke="#8D6E63" stroke-width="1" opacity="0.5">
+    <ellipse cx="90" cy="350" rx="6" ry="10" transform="rotate(-20 90 350)"/>
+    <ellipse cx="240" cy="370" rx="6" ry="10" transform="rotate(15 240 370)"/>
+    <ellipse cx="390" cy="350" rx="6" ry="10" transform="rotate(-10 390 350)"/>
+    <ellipse cx="540" cy="370" rx="6" ry="10" transform="rotate(20 540 370)"/>
+    <ellipse cx="690" cy="350" rx="6" ry="10" transform="rotate(-5 690 350)"/>
+  </g>
+  <!-- Farmer silhouette -->
+  <path d="M650 350 Q 670 300 650 200 Q 630 150 610 100 Q 590 120 570 150 Q 550 200 550 250 Q 570 300 600 350 Z" fill="#263238" opacity="0.3"/>
+  <circle cx="630" cy="80" r="15" fill="#263238" opacity="0.3"/>
+  <text x="400" y="560" font-family="Georgia, serif" font-size="28" fill="#2E7D32" text-anchor="middle" opacity="0.5">Khetar Vala Farm</text>
+</svg>

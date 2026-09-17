@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5EEDC"/>
+      <stop offset="100%" style="stop-color:#FFF8E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="150" fill="#FFF8E7" stroke="#8D6E63" stroke-width="2" opacity="0.3"/>
+  <g fill="#2E7D32" opacity="0.4">
+    <path d="M400 180 Q 420 230 400 280 Q 380 230 400 180" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M350 220 Q 370 270 350 320 Q 330 270 350 220" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M450 220 Q 430 270 450 320 Q 470 270 450 220" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#4CAF50" opacity="0.3">
+    <ellipse cx="380" cy="200" rx="6" ry="10" transform="rotate(-15 380 200)"/>
+    <ellipse cx="420" cy="190" rx="5" ry="9" transform="rotate(10 420 190)"/>
+    <ellipse cx="360" cy="260" rx="5" ry="9" transform="rotate(5 360 260)"/>
+    <ellipse cx="440" cy="250" rx="6" ry="10" transform="rotate(-5 440 250)"/>
+  </g>
+  <text x="400" y="520" font-family="Georgia, serif" font-size="32" fill="#2E7D32" text-anchor="middle" opacity="0.7">Grains</text>
+  <text x="400" y="555" font-family="Inter, sans-serif" font-size="14" fill="#8D6E63" text-anchor="middle" opacity="0.5">Wheat • Bajra • Jowar</text>
+</svg>

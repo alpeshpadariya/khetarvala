@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5EEDC"/>
+      <stop offset="100%" style="stop-color:#FFF8E7"/>
+    </linearGradient>
+    <linearGradient id="jar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8E7"/>
+      <stop offset="100%" style="stop-color:#FFF0D0"/>
+    </linearGradient>
+    <linearGradient id="ghee" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE082"/>
+      <stop offset="100%" style="stop-color:#FFD54F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="150" fill="#FFF8E7" stroke="#8D6E63" stroke-width="2" opacity="0.3"/>
+  <path d="M340 200 L355 160 L445 160 L460 200 L460 440 Q460 465 435 465 L365 465 Q340 465 340 440 Z" 
+        fill="url(#jar)" stroke="#8D6E63" stroke-width="2" opacity="0.8"/>
+  <path d="M350 220 L450 220 L450 430 Q450 450 430 450 L370 450 Q350 450 350 430 Z" 
+        fill="url(#ghee)" opacity="0.9"/>
+  <ellipse cx="400" cy="150" rx="80" ry="18" fill="#8D6E63" opacity="0.6"/>
+  <text x="400" y="520" font-family="Georgia, serif" font-size="32" fill="#2E7D32" text-anchor="middle" opacity="0.7">Ghee</text>
+  <text x="400" y="555" font-family="Inter, sans-serif" font-size="14" fill="#8D6E63" text-anchor="middle" opacity="0.5">Traditional Cow Ghee</text>
+</svg>

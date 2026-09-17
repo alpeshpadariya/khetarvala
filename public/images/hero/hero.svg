@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8E7"/>
+      <stop offset="50%" style="stop-color:#F5EEDC"/>
+      <stop offset="100%" style="stop-color:#E8DCC8"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8E7"/>
+      <stop offset="100%" style="stop-color:#FFF0D0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <!-- Sky gradient overlay -->
+  <rect width="1920" height="1080" fill="url(#field)" opacity="0.3"/>
+  <!-- Distant hills -->
+  <path d="M0 600 Q 400 400 800 550 Q 1200 450 1600 580 Q 1920 550 1920 600 L1920 1080 L0 1080 Z" 
+        fill="#2E7D32" opacity="0.15"/>
+  <path d="M0 650 Q 300 500 600 620 Q 900 520 1200 640 Q 1500 550 1920 650 L1920 1080 L0 1080 Z" 
+        fill="#2E7D32" opacity="0.1"/>
+  <!-- Wheat field rows -->
+  <g fill="#2E7D32" opacity="0.12">
+    <path d="M0 700 Q 200 550 400 700 Q 600 550 800 700 Q 1000 550 1200 700 Q 1400 550 1600 700 Q 1800 550 1920 700 L1920 1080 L0 1080 Z"/>
+    <path d="M0 780 Q 150 650 300 780 Q 450 650 600 780 Q 750 650 900 780 Q 1050 650 1200 780 Q 1350 650 1500 780 Q 1650 650 1800 780 L1920 1080 L0 1080 Z" opacity="0.08"/>
+    <path d="M0 880 Q 100 750 200 880 Q 300 750 400 880 Q 500 750 600 880 Q 700 750 800 880 Q 900 750 1000 880 Q 1100 750 1200 880 Q 1300 750 1400 880 Q 1500 750 1600 880 Q 1700 750 1800 880 L1920 1080 L0 1080 Z" opacity="0.06"/>
+  </g>
+  <!-- Wheat stalks in foreground -->
+  <g stroke="#8D6E63" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.3">
+    <path d="M200 900 Q 220 800 200 700 Q 180 600 200 500"/>
+    <path d="M350 920 Q 370 820 350 720 Q 330 620 350 520"/>
+    <path d="M500 900 Q 520 800 500 700 Q 480 600 500 500"/>
+    <path d="M650 920 Q 670 820 650 720 Q 630 620 650 520"/>
+    <path d="M800 900 Q 820 800 800 700 Q 780 600 800 500"/>
+    <path d="M950 920 Q 970 820 950 720 Q 930 620 950 520"/>
+    <path d="M1100 900 Q 1120 800 1100 700 Q 1080 600 1100 500"/>
+    <path d="M1250 920 Q 1270 820 1250 720 Q 1230 620 1250 520"/>
+    <path d="M1400 900 Q 1420 800 1400 700 Q 1380 600 1400 500"/>
+    <path d="M1550 920 Q 1570 820 1550 720 Q 1530 620 1550 520"/>
+    <path d="M1700 900 Q 1720 800 1700 700 Q 1680 600 1700 500"/>
+  </g>
+  <!-- Wheat grains on stalks -->
+  <g fill="#FFF8E7" stroke="#8D6E63" stroke-width="1" opacity="0.4">
+    <ellipse cx="190" cy="650" rx="5" ry="8" transform="rotate(-20 190 650)"/>
+    <ellipse cx="340" cy="670" rx="5" ry="8" transform="rotate(15 340 670)"/>
+    <ellipse cx="490" cy="650" rx="5" ry="8" transform="rotate(-10 490 650)"/>
+    <ellipse cx="640" cy="670" rx="5" ry="8" transform="rotate(20 640 670)"/>
+    <ellipse cx="790" cy="650" rx="5" ry="8" transform="rotate(-5 790 650)"/>
+    <ellipse cx="940" cy="670" rx="5" ry="8" transform="rotate(10 940 670)"/>
+    <ellipse cx="1090" cy="650" rx="5" ry="8" transform="rotate(-15 1090 650)"/>
+    <ellipse cx="1240" cy="670" rx="5" ry="8" transform="rotate(5 1240 670)"/>
+    <ellipse cx="1390" cy="650" rx="5" ry="8" transform="rotate(-10 1390 650)"/>
+    <ellipse cx="1540" cy="670" rx="5" ry="8" transform="rotate(15 1540 670)"/>
+    <ellipse cx="1690" cy="650" rx="5" ry="8" transform="rotate(-5 1690 650)"/>
+  </g>
+  <!-- Sun rays -->
+  <g stroke="#FFD54F" stroke-width="2" opacity="0.15">
+    <line x1="1600" y1="100" x2="1700" y2="50"/>
+    <line x1="1650" y1="80" x2="1780" y2="30"/>
+    <line x1="1700" y1="120" x2="1850" y2="80"/>
+    <line x1="1750" y1="100" x2="1900" y2="60"/>
+  </g>
+</svg>

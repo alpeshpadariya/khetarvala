@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5EEDC"/>
+      <stop offset="100%" style="stop-color:#FFF8E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="150" fill="#FFF8E7" stroke="#8D6E63" stroke-width="2" opacity="0.3"/>
+  <g fill="#8D6E63" opacity="0.4">
+    <circle cx="330" cy="250" r="25"/>
+    <circle cx="420" cy="240" r="22"/>
+    <circle cx="360" cy="340" r="20"/>
+    <circle cx="450" cy="330" r="23"/>
+    <circle cx="390" cy="420" r="21"/>
+    <circle cx="470" cy="400" r="24"/>
+    <circle cx="310" cy="330" r="18"/>
+    <circle cx="490" cy="280" r="20"/>
+  </g>
+  <g fill="#2E7D32" opacity="0.3">
+    <circle cx="340" cy="260" r="12"/>
+    <circle cx="410" cy="250" r="10"/>
+    <circle cx="370" cy="330" r="9"/>
+    <circle cx="440" cy="320" r="11"/>
+  </g>
+  <text x="400" y="520" font-family="Georgia, serif" font-size="32" fill="#2E7D32" text-anchor="middle" opacity="0.7">Pulses & Kathol</text>
+  <text x="400" y="555" font-family="Inter, sans-serif" font-size="14" fill="#8D6E63" text-anchor="middle" opacity="0.5">Chana • Moong • Toor • Urad • Moth • Rajma</text>
+</svg>

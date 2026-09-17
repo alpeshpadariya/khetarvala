@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5EEDC"/>
+      <stop offset="100%" style="stop-color:#FFF8E7"/>
+    </linearGradient>
+    <linearGradient id="soap" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8E7"/>
+      <stop offset="50%" style="stop-color:#F5EEDC"/>
+      <stop offset="100%" style="stop-color:#E8DCC8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="400" cy="400" r="180" fill="#FFF8E7" stroke="#8D6E63" stroke-width="2" opacity="0.3"/>
+  <!-- Soap bar -->
+  <rect x="280" y="280" width="240" height="240" rx="20" fill="url(#soap)" stroke="#8D6E63" stroke-width="2"/>
+  <!-- Botanical elements -->
+  <g fill="#2E7D32" opacity="0.4">
+    <ellipse cx="350" cy="340" rx="15" ry="8" transform="rotate(-20 350 340)"/>
+    <ellipse cx="430" cy="330" rx="12" ry="7" transform="rotate(15 430 330)"/>
+    <ellipse cx="360" cy="440" rx="14" ry="8" transform="rotate(10 360 440)"/>
+    <ellipse cx="450" cy="450" rx="13" ry="7" transform="rotate(-10 450 450)"/>
+  </g>
+  <g fill="#4CAF50" opacity="0.3">
+    <ellipse cx="355" cy="335" rx="7" ry="4" transform="rotate(-20 355 335)"/>
+    <ellipse cx="425" cy="325" rx="6" ry="3" transform="rotate(15 425 325)"/>
+  </g>
+  <text x="400" y="750" font-family="Georgia, serif" font-size="28" fill="#2E7D32" text-anchor="middle" opacity="0.6">Khetar Vala</text>
+  <text x="400" y="780" font-family="Inter, sans-serif" font-size="16" fill="#8D6E63" text-anchor="middle" opacity="0.5">Natural Soap</text>
+</svg>

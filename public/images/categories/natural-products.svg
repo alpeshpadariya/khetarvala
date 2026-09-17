@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5EEDC"/>
+      <stop offset="100%" style="stop-color:#FFF8E7"/>
+    </linearGradient>
+    <linearGradient id="soap" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8E7"/>
+      <stop offset="50%" style="stop-color:#F5EEDC"/>
+      <stop offset="100%" style="stop-color:#E8DCC8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="150" fill="#FFF8E7" stroke="#8D6E63" stroke-width="2" opacity="0.3"/>
+  <rect x="300" y="200" width="200" height="200" rx="15" fill="url(#soap)" stroke="#8D6E63" stroke-width="2"/>
+  <g fill="#2E7D32" opacity="0.4">
+    <ellipse cx="350" cy="260" rx="12" ry="7" transform="rotate(-20 350 260)"/>
+    <ellipse cx="430" cy="250" rx="10" ry="6" transform="rotate(15 430 250)"/>
+    <ellipse cx="360" cy="340" rx="11" ry="7" transform="rotate(10 360 340)"/>
+    <ellipse cx="440" cy="350" rx="10" ry="6" transform="rotate(-10 440 350)"/>
+  </g>
+  <g fill="#4CAF50" opacity="0.3">
+    <ellipse cx="355" cy="255" rx="6" ry="3" transform="rotate(-20 355 255)"/>
+    <ellipse cx="425" cy="245" rx="5" ry="3" transform="rotate(15 425 245)"/>
+  </g>
+  <text x="400" y="520" font-family="Georgia, serif" font-size="32" fill="#2E7D32" text-anchor="middle" opacity="0.7">Natural Products</text>
+  <text x="400" y="555" font-family="Inter, sans-serif" font-size="14" fill="#8D6E63" text-anchor="middle" opacity="0.5">Handcrafted Natural Soaps</text>
+</svg>
