@@ -20,7 +20,7 @@ export function ProductCard({ product, variant = 'default', priority = false, cl
   return (
     <article className={classNames("card group", className)} style={style}>
       <Link
-        href={`/products/${product.slug}`}
+        href={`/products/${product.category}/${product.slug}`}
         className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-card overflow-hidden"
         aria-label={`View ${product.name} details`}
       >
