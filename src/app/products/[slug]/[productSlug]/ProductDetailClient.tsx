@@ -54,15 +54,15 @@ export function ProductDetailClient({ product, category, relatedProducts }: Prod
       <section className="mb-12 lg:mb-16" aria-labelledby="product-gallery">
         <div className="grid lg:grid-cols-12 gap-8">
           {/* Main Image + Thumbnails */}
-          <div className="lg:col-span-8 xl:col-span-7 space-y-4">
+          <div className="lg:col-span-6 xl:col-span-5 space-y-4">
             {/* Main Image */}
-            <div className="relative aspect-square rounded-xl overflow-hidden bg-beige/50">
+            <div className="relative aspect-square max-w-[480px] mx-auto rounded-xl overflow-hidden bg-beige/50">
               <Image
                 src={product.images[selectedImageIndex]}
                 alt={product.imageAlt}
                 fill
                 priority
-                sizes="(max-width: 1024px) 100vw, 50vw"
+                sizes="(max-width: 1024px) 100vw, 33vw"
                 className="object-cover transition-opacity duration-300"
                 placeholder="blur"
                 blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
@@ -128,7 +128,7 @@ export function ProductDetailClient({ product, category, relatedProducts }: Prod
           </div>
 
           {/* Sticky Info Panel */}
-          <div className="lg:col-span-4 xl:col-span-5">
+          <div className="lg:col-span-6 xl:col-span-7">
             <div className="sticky top-24 space-y-6">
               {/* Product Header */}
               <div className="border-b border-brown/10 pb-6">
